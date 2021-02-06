@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className="header">
       <header>
-        <img src={Logo} alt="Logo Instagram" />
+        <a href="https://www.instagram.com"><img src={Logo} alt="Logo Instagram" /></a>
         <div className="top-info">
           <span>
             <FiUser />
