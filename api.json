@@ -24,7 +24,15 @@
       "postPicture": "https://www.publicdomainpictures.net/pictures/90000/velka/mars.jpg",
       "location": "Mars",
       "description": "🧭 Explorer, 📸 photographer, ⛰️ geologist, 🧪 chemist... Mars Curiosity does it all!⁣",
-      "likes": 13
+      "likes": 14
+    },
+    {
+      "user": "Bia Gavira",
+      "userPicture": "https://avatars.githubusercontent.com/u/64283019?s=460&v=4",
+      "postPicture": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1dqbhZ.img?h=520&w=799&m=6&q=60&o=f&l=f&x=446&y=204",
+      "description": "#ladygaga",
+      "likes": 1,
+      "id": 5
     }
   ],
   "stories": [
@@ -54,8 +62,8 @@
     }
   ],
   "user": {
-    "name": "Jeniffer",
-    "username": "jenicarvalho",
-    "userPicture": "https://randomuser.me/api/portraits/women/21.jpg"
+    "name": "Bia Gavira",
+    "username": "gavirete",
+    "userPicture": "https://avatars.githubusercontent.com/u/64283019?s=460&v=4"
   }
 }
