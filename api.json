@@ -6,7 +6,7 @@
       "userPicture": "https://randomuser.me/api/portraits/men/22.jpg",
       "postPicture": "https://historycouk.s3.eu-west-2.amazonaws.com/s3fs-public/styles/860x300/public/2020-07/orson-welles-war-worlds.jpg",
       "description": "On #ThisDayinHistory 1938, Orson Welles caused a nationwide panic with his broadcast of “War of the Worlds”—a realistic radio dramatization of a Martian invasion of Earth",
-      "likes": 228
+      "likes": 229
     },
     {
       "id": 3,
@@ -33,6 +33,22 @@
       "description": "#ladygaga",
       "likes": 1,
       "id": 5
+    },
+    {
+      "user": "Bia Gavira",
+      "userPicture": "https://avatars.githubusercontent.com/u/64283019?s=460&v=4",
+      "postPicture": "https://s2.glbimg.com/QqEDyJyWVPTI9tU-5izKpJls6UE=/620x520/smart/e.glbimg.com/og/ed/f/original/2020/11/30/baby-yoda.jpg",
+      "description": "#babyyoda",
+      "likes": 3,
+      "id": 7
+    },
+    {
+      "user": "Bia Gavira",
+      "userPicture": "https://avatars.githubusercontent.com/u/64283019?s=460&v=4",
+      "postPicture": "https://cachorrosincriveis.com.br/wp-content/uploads/2019/01/filhote-de-dachshund-5-696x464.png",
+      "description": "Bilico bebezico",
+      "likes": 5,
+      "id": 8
     }
   ],
   "stories": [

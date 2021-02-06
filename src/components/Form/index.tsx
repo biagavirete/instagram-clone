@@ -4,10 +4,11 @@ import api from '../../services/api';
 import { getPosts } from '../../store/ducks/posts/actions';
 
 const Form = () => {
+
   const dispatch = useDispatch();
 
-  let inputImageUrl = useRef<HTMLInputElement>(null);
-  let inputImageDescription = useRef<HTMLInputElement>(null);
+  let inputImageUrl = useRef<any>(null);
+  let inputImageDescription = useRef<any>(null);
 
   const refreshPosts = () => {
     api.get('/posts')
@@ -28,6 +29,8 @@ const Form = () => {
       likes: 0
     }).then(response => {
       if (response.status === 201) {
+        inputImageUrl.current.value = "";
+        inputImageDescription.current.value = "";
         refreshPosts();
       }
     })
