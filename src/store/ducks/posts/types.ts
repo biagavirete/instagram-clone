@@ -8,6 +8,7 @@ export interface IPostItem {
   userPicture: string,
   postPicture: string,
   description: string,
+  location: string,
   likes: number
 }
 
