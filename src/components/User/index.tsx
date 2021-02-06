@@ -12,6 +12,7 @@ const User = () => {
   useEffect(() => {
     api.get('/user')
       .then(response => dispatch(getUser(response.data)))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return (

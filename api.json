@@ -6,7 +6,7 @@
       "userPicture": "https://randomuser.me/api/portraits/men/22.jpg",
       "postPicture": "https://historycouk.s3.eu-west-2.amazonaws.com/s3fs-public/styles/860x300/public/2020-07/orson-welles-war-worlds.jpg",
       "description": "On #ThisDayinHistory 1938, Orson Welles caused a nationwide panic with his broadcast of “War of the Worlds”—a realistic radio dramatization of a Martian invasion of Earth",
-      "likes": 210
+      "likes": 228
     },
     {
       "id": 3,
@@ -15,7 +15,7 @@
       "postPicture": "https://blogs.esa.int/iriss/files/2015/09/20457019454_7de78eff73_o.jpg",
       "location": "Space",
       "description": "Waving goodbye to a spacecraft.",
-      "likes": 20
+      "likes": 27
     },
     {
       "id": 4,
@@ -24,7 +24,7 @@
       "postPicture": "https://www.publicdomainpictures.net/pictures/90000/velka/mars.jpg",
       "location": "Mars",
       "description": "🧭 Explorer, 📸 photographer, ⛰️ geologist, 🧪 chemist... Mars Curiosity does it all!⁣",
-      "likes": 9
+      "likes": 13
     }
   ],
   "stories": [
