@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { FiPlusSquare } from 'react-icons/fi';
 import { useDispatch, useSelector } from 'react-redux';
 import api from '../../services/api';
 import { getPosts } from '../../store/ducks/posts/actions';
@@ -41,7 +42,7 @@ const Form = () => {
       <p>New post</p>
       <input type="text" placeholder="Image URL" ref={inputImageUrl} />
       <input type="text" placeholder="Description" ref={inputImageDescription} />
-      <button onClick={newPost}>Post!</button>
+      <button onClick={newPost}><FiPlusSquare size={24} /></button>
     </div>
   )
 }

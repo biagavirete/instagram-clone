@@ -258,11 +258,25 @@ img {
 }
 
 .form button {
-  background: #efbc02;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 5px 10px;
-  font-size: 16px;
+  font-size: 14px;
+  color: #fff;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.form buttom svg {
+  transition: all 0.3s ease;
+}
+
+.form button svg:active {
+  transform: scale(1.2);
 }
 
 .form button:hover {
