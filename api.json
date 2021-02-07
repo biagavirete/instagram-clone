@@ -49,6 +49,14 @@
       "description": "Bilico bebezico",
       "likes": 5,
       "id": 8
+    },
+    {
+      "user": "Bia Gavira",
+      "userPicture": "https://avatars.githubusercontent.com/u/64283019?s=460&v=4",
+      "postPicture": "https://veja.abril.com.br/wp-content/uploads/2021/01/wandavision.0.jpg?quality=70&strip=info&resize=680,453",
+      "description": "#wandavision",
+      "likes": 0,
+      "id": 9
     }
   ],
   "stories": [

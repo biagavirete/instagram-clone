@@ -33,7 +33,7 @@ export const Posts = () => {
   return (
     <>
       { posts !== undefined && posts.map((post: IPostItem) => (
-        <div className="post">
+        <div className="post" key={post.id}>
           <header>
             <img src={post.userPicture} alt="user" />
             <div className="post-user">

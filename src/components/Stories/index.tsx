@@ -15,13 +15,14 @@ const Stories = () => {
     api.get('/stories')
       .then(response => setStories(response.data))
   }, [])
+
   return (
     <div className="stories">
       <h2>Stories</h2>
       {stories !== undefined && stories.map((story: IStory) => (
         <>
           <div className="storie" key={story.id}>
-            <div className="storie-image">
+            <div className="storie-image" >
               <img src={story.userPicture} alt={story.user} />
             </div>
             <div className="storie-user">
