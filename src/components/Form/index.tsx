@@ -16,14 +16,14 @@ const Form = () => {
       .then(response => dispatch(getPosts(response.data)))
   }
 
-  const { name, userPicture } = useSelector((state: any) => state.user);
+  const { username, userPicture } = useSelector((state: any) => state.user);
 
   const newPost = () => {
     const imageUrl = inputImageUrl.current?.value;
     const imageDescription = inputImageDescription.current?.value;
 
     api.post('/posts', {
-      user: name,
+      user: username,
       userPicture: userPicture,
       postPicture: imageUrl,
       description: imageDescription,
