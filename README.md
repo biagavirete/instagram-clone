@@ -2,7 +2,7 @@
 
 Projeto React utilizando Typescript e Redux desenvolvido na trilha React do Campinas Tech Talents, simulando a página do Instagram Web, com adição de um formulário para postagem de nova foto no feed.
 
-<p align="center" width="100%"><img src="https://github.com/biagavirete/instagram-clone/blob/master/gif-instagram.gif"></p>
+<p align="center" width="50%"><img src="https://github.com/biagavirete/instagram-clone/blob/master/gif-instagram.gif"></p>
 
 ## Como usar
 
